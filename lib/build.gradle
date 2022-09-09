@@ -1,17 +1,17 @@
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     id 'java-library'
+
+    id 'maven-publish'
 }
 
 group = 'io.github.djtpj'
 archivesBaseName = 'cafe-json'
-version = '0.0.1'
+version = '1.0.0-SNAPSHOT'
 
 repositories {
     // Use Maven Central for resolving dependencies.
-//    mavenCentral()
-
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -31,4 +31,10 @@ dependencies {
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+task generateJavaDocs(type: Javadoc) {
+    source = sourceSets.main.allJava
+    destinationDir = reporting.file("javadoc")
+    title = "cafe-json Javadocs"
 }
