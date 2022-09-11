@@ -1,4 +1,4 @@
-package cafe.json;
+package io.github.djtpj;
 
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;

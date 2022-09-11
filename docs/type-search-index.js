@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"cafe.json","l":"JsonPrimitive"},{"p":"cafe.json","l":"JsonSave"},{"p":"cafe.json","l":"JsonStreamer"}];updateSearchResults();

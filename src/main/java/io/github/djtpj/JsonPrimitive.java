@@ -1,14 +1,14 @@
-package cafe.json;
+package io.github.djtpj;
 
 /**
- * Used to tell the JsonStreamer reading engine how to parse this value from the JSON
- * Declared with the JsonSave annotation
+ * Used to tell the io.github.djtpj.JsonStreamer reading engine how to parse this value from the JSON
+ * Declared with the io.github.djtpj.JsonSave annotation
  * @see JsonStreamer
  * @see JsonSave
  */
 public enum JsonPrimitive {
     /**
-     * The default JsonPrimitive chosen by {@link JsonSave}
+     * The default io.github.djtpj.JsonPrimitive chosen by {@link JsonSave}
      */
     OBJECT() {
         @Override
