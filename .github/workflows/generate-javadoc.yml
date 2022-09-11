@@ -11,11 +11,11 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy JavaDoc 🚀
       - uses: actions/checkout@v3
-      - uses: MathieuSoysal/Javadoc-publisher.yml@v2.0.4
+      - name: Deploy JavaDoc 🚀
+        uses: MathieuSoysal/Javadoc-publisher.yml@v2.0.4
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           javadoc-branch: javadoc
           java-version: 17
-          target-folder: javadoc 
+          target-folder: javadoc
