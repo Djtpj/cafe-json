@@ -29,9 +29,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.4.1</version>
-                <configuration>
-                    <reportOutputDirectory>C:\Dev\Java\Software\cafe-json\docs</reportOutputDirectory>
-                </configuration>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
