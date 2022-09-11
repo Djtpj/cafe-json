@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"io.github.djtpj","l":"JsonPrimitive"},{"p":"io.github.djtpj","l":"JsonSave"},{"p":"io.github.djtpj","l":"JsonStreamer"}];updateSearchResults();
